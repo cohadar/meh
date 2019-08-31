@@ -6,4 +6,5 @@ watch 'kubectl -n flohmarkt get pods -o wide | grep show-env'
 watch 'kubectl -n flohmarkt describe service show-env | grep raw -A2'
 
 1. demonstriraj kako stari config ne trigeruje roll podova
-2. demonstriraj kako bad config ne ubija dobar deploy
+2. demonstriraj kako novi config trigeruje roll + rolling settinge za zero downtime
+3. demonstriraj kako bad config ne ubija dobar deploy
