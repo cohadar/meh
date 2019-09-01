@@ -35,18 +35,19 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* Jenkins X - too opinionated, too Jenkins
 	* concourse - it has local builds! check it out! <---------------<<
 	* Travis CI (and similar) - too dangerous to do builds "outside"
-	* gocd - Great UI! - very professional, has agents <---------------<<
+	* gocd - good UI! - very professional, has agents <---------------<<
+	* GitLab - good UI! popular
 	* TeamCity - the main problem is licencing, otherwise works great.
 
-13. CI top picks:
-    1. gocd
-	2. drone
-	3. concourse
-
-14. http://ccmenu.org/ - veeeery nice
-
-15. CI feature list
+13. CI feature list
 	* open-source
 	* has great server UI
 	* has stateful agents (build caching is very important for speed)
-	* can run locally (nice to have)
+	* can run locally
+
+14. CI top picks:
+    1. gocd
+	2. drone
+	3. gitlab
+
+15. http://ccmenu.org/ - veeeery nice
