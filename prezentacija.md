@@ -33,15 +33,16 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* drone.io - lotsa features, most popular on github, maybe too complex. <---------------<<
 	* Tekton - not production ready
 	* Jenkins X - too opinionated, too Jenkins
-	* concourse - it has local builds! check it out! <---------------<<
+	* concourse - it has local builds! but no agents.
 	* Travis CI (and similar) - too dangerous to do builds "outside"
-	* gocd - good UI! - very professional, has agents <---------------<<
+	* gocd - good UI! - has agents, very simple, opensource TeamCity  <---------------<<
 	* GitLab - good UI! popular
 	* TeamCity - the main problem is licencing, otherwise works great.
 
 13. CI feature list
 	* open-source
 	* has great server UI
+	* has API
 	* has stateful agents (build caching is very important for speed)
 	* can run locally
 
