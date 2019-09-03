@@ -45,6 +45,8 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* has API
 	* has stateful agents (build caching is very important for speed)
 	* can run locally
+	* detached step for integration
+	* manual step (sa UI prodrškom)
 
 14. CI top picks:
     1. gocd

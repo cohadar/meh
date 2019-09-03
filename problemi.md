@@ -10,6 +10,5 @@
 	* https://docs.gitlab.com/ee/ci/
 5. Docker building
 	* https://github.com/GoogleContainerTools/kaniko
-	* https://github.com/genuinetools/img
 6. Sugar on top
 	* http://ccmenu.org/
