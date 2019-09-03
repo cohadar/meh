@@ -49,7 +49,7 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* manual step (sa UI prodrškom)
 
 14. CI top picks:
-    1. gocd
+	1. gocd
 	2. drone
 	3. gitlab
 
