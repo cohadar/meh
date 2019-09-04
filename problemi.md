@@ -7,7 +7,6 @@
 	* https://argoproj.github.io/argo-cd/
 4. CI/Pipelines
 	* https://www.gocd.org/
-	* https://drone.io/
 5. Docker building
 	* https://github.com/GoogleContainerTools/kaniko
 6. Sugar on top
