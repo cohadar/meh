@@ -30,7 +30,7 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 
 12. lotsa CIs: Argo, drone.io, Tekton, Jenkins X, concourse-ci, gocd, and ofc TeamCity
 	* Argo workflows are not a match for CD
-	* drone.io - lotsa features, most popular on github, maybe too complex. <---------------<<
+	* drone.io - crap UI, lotsa features, most popular on github, maybe too complex
 	* Tekton - not production ready
 	* Jenkins X - too opinionated, too Jenkins
 	* concourse - it has local builds! but no agents.
@@ -38,6 +38,7 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* gocd - good UI! - has agents, very simple, opensource TeamCity  <---------------<<
 	* GitLab - good UI! popular
 	* TeamCity - the main problem is licencing, otherwise works great.
+	* spinnaker - too general
 
 13. CI feature list
 	* open-source
@@ -47,10 +48,5 @@ watch 'kubectl -n z-debugging describe service show-env | grep raw -A2'
 	* can run locally
 	* detached step for integration
 	* manual step (sa UI prodrškom)
-
-14. CI top picks:
-	1. gocd
-	2. drone
-	3. gitlab
 
 15. http://ccmenu.org/ - veeeery nice

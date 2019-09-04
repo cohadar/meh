@@ -1,4 +1,4 @@
-1. config dependencies & blue/green
+1. deploy dependencies & rolling update
 	* https://kustomize.io/
 2. canary deployments, traffic control, network policies
 	* https://istio.io/docs/concepts/what-is-istio/arch.svg
